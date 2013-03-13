@@ -1,0 +1,21 @@
+html { background: #EDFCFE; /* E9FDFF couleur de fond des pages EFEFEF*/ }
+body {
+	margin-left: auto; margin-right: auto; padding-left: auto; padding-right: auto; width: auto;
+	font-family: "Trebuchet MS", Verdana, Geneva, Arial; font-size: 13px;
+}
+#header { /* 1ere barre comprenant le logo et le bouton Mon compte */
+	width: auto;
+	margin-top: -25px;
+	height: 150px;
+	background-color: #3783d1;
+	background: -moz-linear-gradient(top, #8ec1da 10%, #3783d1 50%, #8ec1da 90%);  
+    background: -webkit-linear-gradient(top, #606060 10%, #434343 50%, #262626 95%);  
+    background: -o-linear-gradient(top, #8ec1da 10%, #3783d1 50%, #8ec1da 90%);  
+    background: -ms-linear-gradient(top, #8ec1da 10%, #3783d1 50%, #8ec1da 90%);  
+    background: linear-gradient(top, #8ec1da 10%, #3783d1 50%, #8ec1da 90%);
+	filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#8ec1da',
+  endColorstr='#3783d1', GradientType=0);
+}
+#center { /* restant de la page en dessous du menu affiché en largeur 1024px */
+	width: 1024px; margin: auto;
+}
